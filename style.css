@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+/* Home Page */
+.home {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Registration Form */
+.form-box {
+    width: 40%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+}
+
+.form-box input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.checkbox {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Login Page */
+.login-container {
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+    background: white;
+}
+
+.login-image {
+    width: 40%;
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 40px;
+}
+
+.login-image img {
+    width: 120px;
+}
+
+.login-form {
+    width: 60%;
+    padding: 40px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
